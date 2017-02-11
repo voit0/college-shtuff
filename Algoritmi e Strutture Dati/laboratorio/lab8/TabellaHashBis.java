@@ -4,7 +4,7 @@ public class TabellaHashBis implements Dizionario {
 	private Coppia S[];
 	private Hash hFun;
 	private Scansione cFun;
-	private Object canc;
+	private Object canc = new Object();
 
 	// definisco la classe per le coppie
 
